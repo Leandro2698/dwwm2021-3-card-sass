@@ -1,0 +1,12 @@
+.card{
+    @include cardbox ($width-card);
+}
+.card-content{
+    @include cardcontent;
+}
+.card-bonus{
+    @include cardbox ($width-card);
+    @include cardcontent;
+    padding-top: 0;
+    padding-bottom: 0;
+}

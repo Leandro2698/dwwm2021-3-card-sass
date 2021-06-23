@@ -1,0 +1,7 @@
+a{
+   @include btncard($color-btn,$color-text-btn);
+}
+article .card-link{
+    min-width: 10em;
+    margin: auto;
+}
